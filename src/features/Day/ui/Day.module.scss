@@ -1,0 +1,35 @@
+.day {
+
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+    padding: 0 3px;
+    width: 132px;
+    height: 92px;
+    border: 1px solid lightgray;
+    box-sizing: border-box;
+    cursor: pointer;
+
+
+    .day__date {
+        margin: 0;
+        font-size: 24px;
+        color: black;
+    }
+
+    .day__date_dayOff {
+        color: #ff0000;
+    }
+
+    .day__date_toDay {
+        color: #6600FF;
+    }
+}
+
+.day:hover {
+    background-color: #eaeaeb;
+}
+
+.day:active {
+    background-color: #e2e2e4;
+}

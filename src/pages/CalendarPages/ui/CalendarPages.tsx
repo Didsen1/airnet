@@ -1,10 +1,16 @@
 import React from "react";
 import Calendar from "../../../widgets/calendar";
 import styles from './CalendarPages.module.scss'
+import Modal from "../../../widgets/modal";
 
 function CalendarPages() {
     return (
-        <Calendar />
+        <>
+            <Modal />
+            <main className={styles.main}>
+                <Calendar />
+            </main>
+        </>
     );
 }
 

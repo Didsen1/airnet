@@ -1,0 +1,23 @@
+.TaskManagement__Wrapper {
+    display: flex;
+    flex-direction: column;
+    background-color: #eaeaeb;
+    width: 520px;
+    border-radius: 10px;
+    padding: 20px;
+    box-sizing: border-box;
+    margin: 0;
+    margin-bottom: 20px;
+    color: black;
+    word-wrap: break-word;
+    overflow: auto;
+
+}
+
+.TaskManagement__textArea_title {
+    height: 10vh;
+}
+
+.TaskManagement__textArea_description {
+    height: 65vh;
+}

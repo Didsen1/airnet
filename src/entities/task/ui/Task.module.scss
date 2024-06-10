@@ -1,0 +1,25 @@
+.task {
+    display: flex;
+    padding: 20px;
+    background-color: #eaeaeb;
+    border-radius: 10px;
+    font-size: 16px;
+    box-sizing: border-box;
+    width: 480px;
+    cursor: pointer;
+
+    .task__text {
+        margin: 0;
+        overflow: hidden;
+        width: 100%;
+        margin: 0 10px;
+    }
+
+    .task__text_done {
+        text-decoration: line-through;
+    }
+}
+
+.task:not(:last-child) {
+    margin-bottom: 12px;
+}

@@ -1,0 +1,21 @@
+.TaskList__taskWrapper {
+    box-sizing: border-box;
+    height: 80vh;
+    overflow: auto;
+    margin-bottom: 20px;
+
+    .TaskList__noTaskBanner {
+        font-size: 16px;
+        margin: 0;
+        text-align: center;
+        color: #949498;
+    }
+}
+
+.TaskList__buttonWrapper {
+
+    .TaskList__button {
+        width: 100%;
+    }
+
+}

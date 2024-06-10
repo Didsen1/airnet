@@ -1,0 +1,18 @@
+p {
+    margin: 0;
+}
+
+.TaskManagement__label {
+    font-size: 14px;
+    color: #949498;
+    margin-bottom: 5px;
+    line-height: 16px;
+}
+
+.TaskManagement__button {
+    width: 255px;
+}
+
+.TaskManagement__button:first-child {
+    margin-right: 10px;
+}

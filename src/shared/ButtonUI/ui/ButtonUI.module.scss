@@ -1,0 +1,15 @@
+
+.ButtonUI {
+    background-color: black;
+    height: 56px;
+    border-radius: 10px;
+    color: white;
+}
+
+.ButtonUI:hover {
+    background-color: #242222;
+}
+
+.ButtonUI:active {
+    background-color: #312F2F;
+}
