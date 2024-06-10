@@ -34,7 +34,7 @@ const calendarSlice = createSlice({
         markTaskAsDone: (state, action: PayloadAction<{ dayIndex: string, taskId: string }>) => {
             const day = state.days.find(day => day.date === action.payload.dayIndex)
             if (day) {
-                const task = day.tasks.find((task) => task.id = action.payload.taskId)
+                const task = day.tasks.find((task) => task.id === action.payload.taskId)
                 if (task) {
                     task.status = !task.status;
                 }
@@ -43,12 +43,10 @@ const calendarSlice = createSlice({
         deleteTask: (state, action: PayloadAction<{ dayIndex: string, taskId: string }>) => {
             const day = state.days.find(day => day.date === action.payload.dayIndex)
             if (day) {
-                const task = day.tasks.find((task) => task.id = action.payload.taskId)
-                if (task) {
-                    day.tasks = day.tasks.filter(task => task.id !== action.payload.taskId);
-                }
+                day.tasks = day.tasks.filter(task => task.id !== action.payload.taskId);
             }
         }
+
     },
     extraReducers: builder => {
         builder.addCase(initializeMonth.fulfilled, (state, action) => {

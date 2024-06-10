@@ -1,5 +1,29 @@
 .Calendar {
     display: grid;
-    grid-template-columns: repeat(7, 132px);
-    
+    grid-template-columns: repeat(7,  minmax(132px, 1fr));
+    transition: grid-template-columns 0.5s ease;
+}
+
+@media screen and (max-width: 1040px) {
+    .Calendar {
+        grid-template-columns: repeat(7, minmax(110px, 1fr));
+    }
+}
+
+@media screen and (max-width: 790px) {
+    .Calendar {
+        grid-template-columns: repeat(7, minmax(90px, 1fr));
+    }
+}
+
+@media screen and (max-width: 650px) {
+    .Calendar {
+        grid-template-columns: repeat(7, minmax(60px, 1fr));
+    }
+}
+
+@media screen and (max-width: 450px) {
+    .Calendar {
+        grid-template-columns: repeat(7, minmax(45px, 1fr));
+    }
 }

@@ -66,3 +66,29 @@
         }
     }
 }
+
+@media screen and (max-width: 1040px) {
+    .modal {
+        .modal__container {
+            width: 500px;
+            transition: width 0.5s ease;
+        }
+    }
+}
+
+@media screen and (max-width: 790px) {
+    .modal {
+        .modal__container {
+            width: 400px;
+        }
+    }
+}
+
+
+@media screen and (max-width: 450px) {
+    .modal {
+        .modal__container {
+            width: 100%;
+        }
+    }
+}
