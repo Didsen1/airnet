@@ -34,20 +34,20 @@ function TaskManagement() {
         <TaskUI
             titleChilds={
                 <>
-                    <p className={styles.TaskManagement__label}>Краткое название задачи</p>
-                    <p className={styles.TaskManagement__textArea}>{selectedTask?.title ?? ''}</p>
+                    <p className={styles.taskManagement__label}>Краткое название задачи</p>
+                    <p className={styles.taskManagement__textArea}>{selectedTask?.title ?? ''}</p>
                 </>
             }
             descriptionChilds={
                 <>
-                    <p className={styles.TaskManagement__label}>Описание задачи</p>
-                    <p className={styles.TaskManagement__textArea}>{selectedTask?.description ?? ''}</p>
+                    <p className={styles.taskManagement__label}>Описание задачи</p>
+                    <p className={styles.taskManagement__textArea}>{selectedTask?.description ?? ''}</p>
                 </>
             }
             buttonChilds={
                 <>
-                    <ButtonUI onClick={handleDoTaskDone} className={styles.TaskManagement__button} buttonText={`${selectedTask?.status ? 'В работу' : 'Выполнить'}`} />
-                    <ButtonUI onClick={handleDeleteTask} className={styles.TaskManagement__button} buttonText={'Удалить'} />
+                    <ButtonUI onClick={handleDoTaskDone} className={styles.taskManagement__button} buttonText={`${selectedTask?.status ? 'В работу' : 'Выполнить'}`} />
+                    <ButtonUI onClick={handleDeleteTask} className={styles.taskManagement__button} buttonText={'Удалить'} />
                 </>
 
             }

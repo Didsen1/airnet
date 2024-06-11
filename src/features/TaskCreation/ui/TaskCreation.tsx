@@ -31,17 +31,17 @@ function TaskCreation() {
         <TaskUI
             titleChilds={
                 <>
-                    <textarea onChange={(e) => setTitle(e.target.value)} placeholder="Название задачи" aria-label="Название задачи" className={`${styles.TaskCreation__textArea} ${styles.TaskCreation__textArea_title}`}></textarea>
+                    <textarea onChange={(e) => setTitle(e.target.value)} placeholder="Название задачи" aria-label="Название задачи" className={`${styles.taskCreation__textArea} ${styles.taskCreation__textArea_title}`}></textarea>
                 </>
             }
             descriptionChilds={
                 <>
-                    <textarea onChange={(e) => setDescription(e.target.value)} placeholder="Опишите задачу" aria-label="Описание задачи" className={`${styles.TaskCreation__textArea} ${styles.TaskCreation__textArea_depiction}`}></textarea>
+                    <textarea onChange={(e) => setDescription(e.target.value)} placeholder="Опишите задачу" aria-label="Описание задачи" className={`${styles.taskCreation__textArea} ${styles.taskCreation__textArea_depiction}`}></textarea>
                 </>
             }
             buttonChilds={
                 <>
-                    <ButtonUI onClick={handleCreateTask} className={styles.TaskCreation__button} buttonText={'Создать'} />
+                    <ButtonUI onClick={handleCreateTask} className={styles.taskCreation__button} buttonText={'Создать'} />
                 </>
 
             }

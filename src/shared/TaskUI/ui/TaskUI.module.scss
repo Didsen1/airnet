@@ -1,4 +1,4 @@
-.TaskManagement__Wrapper {
+.taskUI__Wrapper {
     display: flex;
     flex-direction: column;
     background-color: #eaeaeb;
@@ -14,10 +14,10 @@
 
 }
 
-.TaskManagement__textArea_title {
+.taskUI__textArea_title {
     height: 10vh;
 }
 
-.TaskManagement__textArea_description {
+.taskUI__textArea_description {
     height: 65vh;
 }

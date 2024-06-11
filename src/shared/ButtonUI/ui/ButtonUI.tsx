@@ -9,7 +9,7 @@ interface ButtonUIProps {
 
 function ButtonUI({ buttonText, className, onClick }: ButtonUIProps) {
     return (
-        <button onClick={onClick} aria-label={`кнопка ${buttonText}`} type="button" className={`${styles.ButtonUI} ${className}`}> {buttonText}</button >
+        <button onClick={onClick} aria-label={`Кнопка ${buttonText}`} type="button" className={`${styles.buttonUI} ${className}`}> {buttonText}</button >
     )
 }
 

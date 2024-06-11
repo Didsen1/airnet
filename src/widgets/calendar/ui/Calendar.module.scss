@@ -1,29 +1,35 @@
-.Calendar {
+.calendar {
     display: grid;
     grid-template-columns: repeat(7,  minmax(132px, 1fr));
     transition: grid-template-columns 0.5s ease;
 }
 
+.calendarTitle {
+    font-size: 24px;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+
 @media screen and (max-width: 1040px) {
-    .Calendar {
+    .calendar {
         grid-template-columns: repeat(7, minmax(110px, 1fr));
     }
 }
 
 @media screen and (max-width: 790px) {
-    .Calendar {
+    .calendar {
         grid-template-columns: repeat(7, minmax(90px, 1fr));
     }
 }
 
 @media screen and (max-width: 650px) {
-    .Calendar {
+    .calendar {
         grid-template-columns: repeat(7, minmax(60px, 1fr));
     }
 }
 
 @media screen and (max-width: 450px) {
-    .Calendar {
+    .calendar {
         grid-template-columns: repeat(7, minmax(45px, 1fr));
     }
 }

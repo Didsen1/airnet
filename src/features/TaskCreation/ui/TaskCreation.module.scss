@@ -1,4 +1,4 @@
-.TaskCreation__textArea {
+.taskCreation__textArea {
     height: 100%;
     box-sizing: border-box;
     border: none;
@@ -7,7 +7,7 @@
     background-color: transparent;
 }
 
-.TaskCreation__button {
+.taskCreation__button {
     background-color: black;
     width: 100%;
     height: 56px;
@@ -15,14 +15,14 @@
     color: white;
 }
 
-.TaskCreation__button:first-child {
+.taskCreation__button:first-child {
     margin-right: 10px;
 }
 
-.TaskCreation__button:hover {
+.taskCreation__button:hover {
     background-color: #242222;
 }
 
-.TaskCreation__button:active {
+.taskCreation__button:active {
     background-color: #312F2F;
 }

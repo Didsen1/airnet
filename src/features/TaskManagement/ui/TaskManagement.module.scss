@@ -1,18 +1,20 @@
-p {
-    margin: 0;
-}
-
-.TaskManagement__label {
+.taskManagement__label {
     font-size: 14px;
     color: #949498;
     margin-bottom: 5px;
     line-height: 16px;
+    margin: 0;
 }
 
-.TaskManagement__button {
+.taskManagement__textArea {
+    margin: 0;
+
+}
+
+.taskManagement__button {
     width: 49.04%;
 }
 
-.TaskManagement__button:first-child {
+.taskManagement__button:first-child {
     margin-right: 1.92%;
 }

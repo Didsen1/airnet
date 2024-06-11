@@ -22,18 +22,18 @@ function TaskList() {
     return (
         <>
             {tasks.length === 0 ?
-                <div className={styles.TaskList__taskWrapper}>
-                    <p className={styles.TaskList__noTaskBanner}>А тут пусто, пора создать задачу ?</p>
-                </div>
+                <ul className={styles.taskList__taskWrapper}>
+                    <p className={styles.taskList__noTaskBanner}>А тут пусто, пора создать задачу ?</p>
+                </ul>
                 :
-                <div className={styles.TaskList__taskWrapper}>
+                <ul className={styles.taskList__taskWrapper}>
                     {
                         tasks.map((task, index) => <Task key={index} task={task} />)
                     }
-                </div>
+                </ul>
 
             }
-            <ButtonUI onClick={handleCreateTask} className={styles.TaskList__button} buttonText={'Создать'} />
+            <ButtonUI onClick={handleCreateTask} className={styles.taskList__button} buttonText={'Создать'} />
 
         </>
     )

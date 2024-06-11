@@ -9,14 +9,14 @@ interface ITaskUIProps {
 
 function TaskUI({ titleChilds, descriptionChilds, buttonChilds }: ITaskUIProps) {
     return (
-        <div className={styles.TaskManagement}>
-            <div className={`${styles.TaskManagement__Wrapper} ${styles.TaskManagement__textArea_title}`}>
+        <div className={styles.taskUI}>
+            <div className={`${styles.taskUI__Wrapper} ${styles.taskUI__textArea_title}`}>
                 {titleChilds}
             </div>
-            <div className={`${styles.TaskManagement__Wrapper} ${styles.TaskManagement__textArea_description}`}>
+            <div className={`${styles.taskUI__Wrapper} ${styles.taskUI__textArea_description}`}>
                 {descriptionChilds}
             </div>
-            <div className={styles.TaskManagement__buttonWrapper}>
+            <div className={styles.taskUI__buttonWrapper}>
                 {buttonChilds}
             </div>
         </div>

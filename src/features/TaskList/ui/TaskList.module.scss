@@ -1,10 +1,12 @@
-.TaskList__taskWrapper {
+.taskList__taskWrapper {
     box-sizing: border-box;
     height: 80vh;
     overflow: auto;
+    margin: 0;
     margin-bottom: 20px;
+    padding: 0;
 
-    .TaskList__noTaskBanner {
+    .taskList__noTaskBanner {
         font-size: 16px;
         margin: 0;
         text-align: center;
@@ -12,10 +14,6 @@
     }
 }
 
-.TaskList__buttonWrapper {
-
-    .TaskList__button {
-        width: 100%;
-    }
-
+.taskList__button {
+    width: 100%;
 }

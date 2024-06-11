@@ -7,7 +7,7 @@ function CalendarPages() {
     return (
         <>
             <Modal />
-            <main className={styles.main}>
+            <main className={styles.calendarPages__main}>
                 <Calendar />
             </main>
         </>
