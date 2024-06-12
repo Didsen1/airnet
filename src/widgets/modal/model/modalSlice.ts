@@ -1,5 +1,5 @@
 import { PayloadAction, createSlice } from '@reduxjs/toolkit';
-import type { ITask } from '../../../entities/task/model/type/ITask';
+import type { ITask } from '../../../features/Task/model/type/ITask';
 
 interface IModalSlice {
     isOpen: boolean;

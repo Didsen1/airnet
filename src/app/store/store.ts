@@ -1,7 +1,7 @@
 import { configureStore } from "@reduxjs/toolkit";
 import { useDispatch } from 'react-redux';
-import calendarSlice from "../../widgets/calendar/model/calendarSlice";
-import modalSlice from "../../widgets/modal/model/modalSlice";
+import calendarSlice from "../../widgets/Calendar/model/calendarSlice";
+import modalSlice from "../../widgets/Modal/model/modalSlice";
 
 const store = configureStore({
     reducer: {

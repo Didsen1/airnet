@@ -2,7 +2,7 @@ import React from "react";
 import styles from './Task.module.scss'
 import { ITask } from "../model/type/ITask";
 import { useAppDispatch } from "../../../app/store/store";
-import { switchToTaskManagement } from "../../../widgets/modal/model/modalSlice";
+import { switchToTaskManagement } from "../../../widgets/Modal/model/modalSlice";
 interface ITaskProps {
     task: ITask;
 }

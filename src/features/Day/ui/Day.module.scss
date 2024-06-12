@@ -2,7 +2,8 @@
     display: flex;
     flex-direction: column;
     align-items: end;
-    padding: 0 3px;
+    justify-content: space-between;
+    padding: 3px;
     height: 92px;
     border: 1px solid lightgray;
     box-sizing: border-box;
@@ -22,6 +23,15 @@
     .day__date_toDay {
         color: #6600FF;
     }
+
+    .day__taskCounter {
+        margin: 0;
+        box-sizing: border-box;
+        overflow: hidden;
+        font-size: 16px;
+        align-self: flex-start;
+        color: #949498;
+    }
 }
 
 .day:hover {
@@ -30,4 +40,20 @@
 
 .day:active {
     background-color: #e2e2e4;
+}
+
+@media screen and (max-width: 650px) {
+    .day {
+        .day__taskCounter {
+            font-size: 14px;
+        }
+    }
+}
+
+@media screen and (max-width: 450px) {
+    .day {
+        .day__taskCounter {
+            font-size: 12px;
+        }
+    }
 }

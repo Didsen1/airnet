@@ -1,4 +1,4 @@
-import { ITask } from "../../../../entities/task/model/type/ITask";
+import { ITask } from "../../../Task/model/type/ITask";
 
 export interface IDay {
     date: string;

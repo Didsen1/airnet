@@ -4,8 +4,8 @@ import ButtonUI from "../../../shared/ButtonUI";
 import styles from './TaskManagement.module.scss'
 import { useSelector } from "react-redux";
 import { RootState, useAppDispatch } from "../../../app/store/store";
-import { deleteTask, markTaskAsDone } from "../../../widgets/calendar/model/calendarSlice";
-import { switchTotaskList } from "../../../widgets/modal/model/modalSlice";
+import { deleteTask, markTaskAsDone } from "../../../widgets/Calendar/model/calendarSlice";
+import { switchTotaskList } from "../../../widgets/Modal/model/modalSlice";
 
 function TaskManagement() {
     const dispatch = useAppDispatch();

@@ -1,9 +1,9 @@
 import React from "react";
-import Task from "../../../entities/task";
+import Task from "../../Task";
 import ButtonUI from "../../../shared/ButtonUI";
 import styles from './TaskList.module.scss'
 import { RootState, useAppDispatch } from "../../../app/store/store";
-import { switchToTaskCreation } from "../../../widgets/modal/model/modalSlice";
+import { switchToTaskCreation } from "../../../widgets/Modal/model/modalSlice";
 import { useSelector } from "react-redux";
 
 

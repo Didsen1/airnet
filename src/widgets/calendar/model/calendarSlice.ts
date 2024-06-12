@@ -4,7 +4,7 @@ import { getDaysOfCurrentMonth } from "../../../shared/getDaysOfCurrentMonth";
 import { checkIsDayOff } from "../../../shared/checkIsDayOff";
 import type { IMonthState } from './type/IMonthState';
 import type { IDay } from "../../../features/Day/model/type/IDay";
-import type { ITask } from "../../../entities/task/model/type/ITask";
+import type { ITask } from "../../../features/Task/model/type/ITask";
 
 const initialState: IMonthState = {
     days: [],

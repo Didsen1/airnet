@@ -4,8 +4,8 @@ import ButtonUI from "../../../shared/ButtonUI";
 import styles from './TaskCreation.module.scss'
 import { useSelector } from "react-redux";
 import { RootState, useAppDispatch } from "../../../app/store/store";
-import { addTask } from "../../../widgets/calendar/model/calendarSlice";
-import { switchTotaskList } from "../../../widgets/modal/model/modalSlice";
+import { addTask } from "../../../widgets/Calendar/model/calendarSlice";
+import { switchTotaskList } from "../../../widgets/Modal/model/modalSlice";
 
 function TaskCreation() {
     const { dayIndex } = useSelector((state: RootState) => state.modal)
